@@ -9,8 +9,9 @@ h1{
 #wonder-land{
     color:rgb(223, 18, 178)
 }
-section{
-    display: flex;;
+.flexible{
+    display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width:50%;
@@ -28,8 +29,35 @@ section{
     color: azure;
     font-weight: 700;
 }
+.register-button{
+    text-decoration:none;
+    color:azure;
+    background-image: linear-gradient(pink, rgb(219, 20, 176));
+    padding:8px 30px;
+    border-radius: 5px;
+}
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+p{
+    text-align: left;
+}
+.register{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.catalogue{
+    box-shadow: 10px 10px 50px gray;
+    width: 80%;
+    margin: 0 5%;
+    padding-left: 2%;
+
+}
+.catalogue-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
